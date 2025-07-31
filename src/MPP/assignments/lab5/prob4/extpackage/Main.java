@@ -2,9 +2,9 @@ package MPP.assignments.lab5.prob4.extpackage;
 
 import java.time.LocalDate;
 
-import lab5.prob4.CustOrderFactory;
-import lab5.prob4.Customer;
-import lab5.prob4.Order;
+import MPP.assignments.lab5.prob4.CustOrderFactory;
+import MPP.assignments.lab5.prob4.Customer;
+import MPP.assignments.lab5.prob4.Order;
 
 public class Main {
 	public static void main(String[] args) {

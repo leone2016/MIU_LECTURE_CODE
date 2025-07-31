@@ -1,7 +1,7 @@
 package MPP.assignments.lab5.prob1.rulesets;
 
-import lab5.prob1.gui.BookWindow;
-import lab5.prob1.gui.CDWindow;
+import MPP.assignments.lab5.prob1.gui.BookWindow;
+import MPP.assignments.lab5.prob1.gui.CDWindow;
 
 import java.awt.Component;
 import java.util.HashMap;

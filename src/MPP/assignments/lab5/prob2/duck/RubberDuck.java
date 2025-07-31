@@ -1,7 +1,7 @@
 package MPP.assignments.lab5.prob2.duck;
 
-import lab5.prob2.flyBehavior.CannotFlyImpl;
-import lab5.prob2.quackBehavior.SqueakImpl;
+import MPP.assignments.lab5.prob2.flyBehavior.CannotFlyImpl;
+import MPP.assignments.lab5.prob2.quackBehavior.SqueakImpl;
 
 public class RubberDuck extends Duck {
     public RubberDuck() {

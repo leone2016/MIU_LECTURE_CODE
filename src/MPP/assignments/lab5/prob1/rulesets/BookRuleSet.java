@@ -1,7 +1,8 @@
 package MPP.assignments.lab5.prob1.rulesets;
 
-import lab5.prob1.gui.BookWindow;
 
+
+import MPP.assignments.lab5.prob1.gui.BookWindow;
 import java.awt.Component;
 
 

@@ -1,7 +1,7 @@
 package MPP.assignments.lab5.prob2.duck;
 
-import lab5.prob2.flyBehavior.CannotFlyImpl;
-import lab5.prob2.quackBehavior.MuteQuackImpl;
+import MPP.assignments.lab5.prob2.flyBehavior.CannotFlyImpl;
+import MPP.assignments.lab5.prob2.quackBehavior.MuteQuackImpl;
 
 public class DecoyDuck extends Duck {
     public DecoyDuck() {

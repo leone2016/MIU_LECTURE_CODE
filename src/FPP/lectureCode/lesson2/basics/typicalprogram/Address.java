@@ -40,7 +40,7 @@ public class Address {
 		Address a = new Address("111 Washington Ave", 
 				"Fairfield", "IA", "52556");
 		//Prints address to the console
-		System.out.println(a.toString());
+		System.out.println(a);
 		int $;
 			
 			

@@ -1,7 +1,7 @@
 package MPP.assignments.lab5.prob2;
 
 
-import lab5.prob2.duck.*;
+import MPP.assignments.lab5.prob2.duck.*;
 
 public class Main {
         public static void main(String[] args) {

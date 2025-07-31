@@ -1,7 +1,7 @@
 package MPP.assignments.lab5.prob2.duck;
 
-import lab5.prob2.flyBehavior.IFlyBehavior;
-import lab5.prob2.quackBehavior.IQuackBehavior;
+import MPP.assignments.lab5.prob2.flyBehavior.IFlyBehavior;
+import MPP.assignments.lab5.prob2.quackBehavior.IQuackBehavior;
 
 public abstract class Duck {
     protected IFlyBehavior flyBehavior;

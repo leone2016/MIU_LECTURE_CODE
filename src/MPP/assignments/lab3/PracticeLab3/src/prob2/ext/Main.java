@@ -1,9 +1,9 @@
 package MPP.assignments.lab3.PracticeLab3.src.prob2.ext;
 
 
-import lab3.PracticeLab3.src.prob2.Apartment;
-import lab3.PracticeLab3.src.prob2.Building;
-import lab3.PracticeLab3.src.prob2.LandlordInfo;
+import MPP.assignments.lab3.PracticeLab3.src.prob2.Apartment;
+import MPP.assignments.lab3.PracticeLab3.src.prob2.Building;
+import MPP.assignments.lab3.PracticeLab3.src.prob2.LandlordInfo;
 
 /**
  * Main class is for testing your code; you can uncomment

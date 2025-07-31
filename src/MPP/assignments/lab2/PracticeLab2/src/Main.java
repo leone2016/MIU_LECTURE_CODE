@@ -1,8 +1,8 @@
 package MPP.assignments.lab2.PracticeLab2.src;
 
-import prob2A.Student;
-import prob2B.Order;
-import prob2B.OrderLine;
+import MPP.assignments.lab2.PracticeLab2.src.prob2A.Student;
+import MPP.assignments.lab2.PracticeLab2.src.prob2B.Order;
+import MPP.assignments.lab2.PracticeLab2.src.prob2B.OrderLine;
 
 /**
  * @author: Leonardo Medina

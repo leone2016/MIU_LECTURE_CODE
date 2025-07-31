@@ -1,6 +1,6 @@
 package MPP.assignments.lab5.prob1.rulesets;
 
-import lab5.prob1.gui.CDWindow;
+import MPP.assignments.lab5.prob1.gui.CDWindow;
 
 import java.awt.Component;
 
