@@ -1,0 +1,17 @@
+
+Users (Actors/Personas)
+
+1. Librarian
+2. LibraryMember
+3. System Admin
+
+Functional Requirements
+
+1. Librarian can check-in book
+2. Librarian can check-out book
+3. LibraryMember can search for book
+4. Librarian can search for book
+5. SystemAdmin can manage ecardcatalog data (e.g. publisher, book, subject information)
+6. Librarian can register new member
+7. SystemAdmin can manage membership types
+8. ... etc.
