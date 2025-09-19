@@ -1,4 +1,4 @@
-package ALGORITHM.lectureCode.adjancentMatrix;
+package ALGORITHM.lectureCode.GRAPH.adjancentMatrix;
 
 import java.util.ArrayList;
 
