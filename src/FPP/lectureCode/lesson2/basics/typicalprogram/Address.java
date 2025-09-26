@@ -35,15 +35,4 @@ public class Address {
 	public String getZip() {
 		return zip;
 	}
-	
-	public static void main(String[] args) {
-		Address a = new Address("111 Washington Ave", 
-				"Fairfield", "IA", "52556");
-		//Prints address to the console
-		System.out.println(a);
-		int $;
-			
-			
-		
-	}
 }

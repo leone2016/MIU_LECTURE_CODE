@@ -34,15 +34,16 @@ public class Main {
 //		System.out.println(e1.toString());
 //		System.out.println(" Home address: " + e1.getHome().toString());
 //		System.out.println(" Work address: " + e1.getWork().toString());
-		
-		
-		//System.out.println(e1.compareTo(e2));
-		
+
+//		System.out.println("TEST");
+//		System.out.println(e1.compareTo(e2));
+//
 		//Creates an Employee array of length 2
-		Employee[] empArray = new Employee[2];
+		Employee[] empArray = new Employee[3];
 		empArray[0] = e1;
 		empArray[1] = e2;
-		
+		empArray[2] = e2;
+
 		Arrays.sort(empArray);
 		System.out.println(Arrays.toString(empArray));
 		/*
