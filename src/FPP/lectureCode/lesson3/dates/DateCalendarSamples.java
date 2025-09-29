@@ -7,6 +7,7 @@ public class DateCalendarSamples {
 
     String datePattern;
 
+
     //jdk1.4 style of formatting Dates
     public DateCalendarSamples(String pattern) {
         datePattern = pattern;
@@ -14,6 +15,7 @@ public class DateCalendarSamples {
         SimpleDateFormat formatter = new SimpleDateFormat(datePattern, locale);
         String dateString = formatter.format(new Date());
         System.out.println("Today's date: " + dateString);
+
 
     }
     public static void main(String [] args) {

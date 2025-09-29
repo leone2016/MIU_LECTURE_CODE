@@ -1,5 +1,7 @@
 package FPP.lectureCode.lesson3.callbyvalueorreference;
 
+import FPP.lectureCode.lesson3.car.Car;
+
 import java.util.Date;
 import java.util.GregorianCalendar;
 
@@ -18,6 +20,7 @@ public class Employee {
 		salary = aSalary;
 		GregorianCalendar cal = new GregorianCalendar(aYear, aMonth - 1, aDay);
 		hireDay = cal.getTime();
+		Car car = new Car();
 	}
 
 	// instance methods

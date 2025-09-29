@@ -1,12 +1,13 @@
-package FPP.lectureCode.lesson3.car;
+package FPP.lectureCode.lesson3.callbyvalueorreference.demo;
 
-public class Car{
+public class Car {
+
 
 	private int year;
 	private String make;
 	private String model;
 	private double price;
-	int numberFlats;
+	protected int numberFlats;
 
 	public static void main(String[] args) {
 

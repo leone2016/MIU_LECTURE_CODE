@@ -7,17 +7,17 @@ import java.util.GregorianCalendar;
 
 public class LocalDateSamples {
 	public static void main(String[] args) {
-//		System.out.println("Today's date: " + LocalDate.now());
-//		System.out.println("Today's date MM/dd/yyyy: " + localDateAsString(LocalDate.now()));
-//		System.out.println("Specified date: " + LocalDate.of(2000, 1, 1));
-//		System.out.println("Specified date MM/dd/yyyy: " + localDateAsString(LocalDate.of(2000, 1, 1)));
-		//Greg to LocalDate
-//		GregorianCalendar cal = new GregorianCalendar(2001, Calendar.MARCH, 15);
-//		System.out.println(localDateAsString(localDateFromGregCalendar(cal)));
-//		//LocalDate to Greg
-//		LocalDate locDate = LocalDate.of(2000, 1, 1);
-//		
-//		GregorianCalendar calendar = gregorianCalendarFromLocalDate(locDate);
+		System.out.println("Today's date: " + LocalDate.now());
+		System.out.println("Today's date MM/dd/yyyy: " + localDateAsString(LocalDate.now()));
+		System.out.println("Specified date: " + LocalDate.of(2000, 1, 1));
+		System.out.println("Specified date MM/dd/yyyy: " + localDateAsString(LocalDate.of(2000, 1, 1)));
+//		Greg to LocalDate
+		GregorianCalendar cal = new GregorianCalendar(2001, Calendar.MARCH, 15);
+		System.out.println(localDateAsString(localDateFromGregCalendar(cal)));
+		//LocalDate to Greg
+		LocalDate locDate = LocalDate.of(2000, 1, 1);
+
+		GregorianCalendar calendar = gregorianCalendarFromLocalDate(locDate);
 //		Date d = calendar.getTime();
 //        SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yyyy",Locale.US);
 //        System.out.println(formatter.format(d));
