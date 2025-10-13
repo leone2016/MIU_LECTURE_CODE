@@ -10,6 +10,7 @@ public class ClassE {
 		System.out.println("2-Executing super static block");
 	}
 	static int superInt1 = 5;
+
 	static int superInstanceIntMethod() {
 		System.out.println("5-Initialzing superInstanceInt");
 		return 3;
@@ -25,8 +26,12 @@ public class ClassE {
 		System.out.println("6-Running super object initialization block");
 	}
 	public static void main(String[] args) {
+		System.out.println("---Creating SubClass instance---");
 		new SubClass();
+	}
 
+	public static void test() {
+		System.out.println("test");
 	}
 
 }

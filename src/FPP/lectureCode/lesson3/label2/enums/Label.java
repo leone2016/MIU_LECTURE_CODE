@@ -32,9 +32,10 @@ public class Label  {
     
     //Label class
     public static void main(String[] args)  {
-    	
-    	Label label = new Label("Hi there!", Alignment.LEFT);
+		int edad = 5;
+	    	Label label = new Label("Hi there!", Alignment.LEFT);
     	//Label label2 = new Label("text", 17);
+
 //    	System.out.println(Alignment.CENTER.getNumber());
     	
     	label.setAlignment(Alignment.RIGHT);
