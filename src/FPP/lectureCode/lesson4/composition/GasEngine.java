@@ -1,0 +1,8 @@
+package FPP.lectureCode.lesson4.composition;
+
+class GasEngine implements Engine {
+    @Override
+    public void start() {
+        System.out.println("Gasoline engine started with a roar ⛽");
+    }
+}

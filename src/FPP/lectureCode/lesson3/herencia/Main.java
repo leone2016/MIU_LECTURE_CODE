@@ -7,11 +7,13 @@ import java.util.Objects;
 public class Main {
     public static void main(String[] args) {
         StaffPerson proff = new Proffesor("John Doe", "123 Main St", "555-1234", "Car", 5);
+        StaffPerson proff2 = new Proffesor("John Doe", "123 Main St", "555-1234", "Car", 5);
         StaffPerson secre1 = new Secretary("Jane Smith", "456 Oak St", "555-5678", "Bike", 3, 200);
         StaffPerson secre2 = new Secretary("Jane Smith", "456 Oak St", "555-5678", "Bike", 3, 200);
-        Secretary sec = (Secretary) proff;
-       // System.out.println(proff.getName() + "'s salary: $" + secre1.computeSalary());
 
+        System.out.println(secre2.equals(proff2));
+       // System.out.println(proff.getName() + "'s salary: $" + secre1.computeSalary());
+        System.out.println(secre1.hashCode());
         Object obj1 = (Object) proff;
 
         //String [] test = {"ads", "bsdsd", "csdsd", 12312};
@@ -36,6 +38,8 @@ public class Main {
         service.computeTax();
 
         String test = "hola";
+
+
 
 
 

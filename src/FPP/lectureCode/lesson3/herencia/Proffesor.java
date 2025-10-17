@@ -1,5 +1,7 @@
 package FPP.lectureCode.lesson3.herencia;
 
+import java.util.Objects;
+
 public class Proffesor extends StaffPerson{
     private int numPublications;
 
@@ -19,6 +21,12 @@ public class Proffesor extends StaffPerson{
         return "Proffesor{" +
                 "numPublications=" + numPublications +
                 '}';
+    }
+
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(numPublications);
     }
 
     @Override

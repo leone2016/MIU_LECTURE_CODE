@@ -1,5 +1,7 @@
 package FPP.lectureCode.lesson3.herencia;
 
+import java.util.Objects;
+
 public class Secretary extends StaffPerson{
     private int numYears;
     private double bono;
@@ -20,5 +22,14 @@ public class Secretary extends StaffPerson{
     double pruebaConocimiento() {
         return 85.5;
     }
+
+    @Override
+    public String toString() {
+        return "Secretary AQUI LORE{" +
+                "numYears=" + numYears +
+                ", bono=" + bono +
+                '}';
+    }
+
 
 }

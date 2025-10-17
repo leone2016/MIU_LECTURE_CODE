@@ -20,18 +20,24 @@ public class ShoppingCartGoldMember implements ShoppingCart {
 		this(name, d, discount);
 		this.items = items;
 	}
+	public static void main(String[] args) {
+		double test = ShoppingCart.computeBaseCost(new ArrayList<>());
+	}
 
 	public void addItem(Item item) {
 		items.add(item);
 	}
 
+	@Override
 	public String getName() {
 		return name;
 	}
 
+	@Override
 	public List<Item> getItems() {
 		return items;
 	}
+
 
 	public LocalDate getDateOfPurchase() {
 		return dateOfPurchase;
@@ -40,6 +46,7 @@ public class ShoppingCartGoldMember implements ShoppingCart {
 	@Override
 	public double getDiscount() {
 		// ShoppingCart.super.getDiscount();
+
 		return this.discount;
 	}
 }

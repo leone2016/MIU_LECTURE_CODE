@@ -20,7 +20,14 @@ public  abstract class StaffPerson {
     abstract double pruebaConocimiento();
    // abstract String pruebaConocimiento;
 
-
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof StaffPerson p ) ) return false;
+        return
+                this.getName().equals(p.getName()) &&
+                this.getAddress().equals(p.getAddress()
+                );
+    }
     public String getName() {
         return name;
     }
